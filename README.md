@@ -1,1 +1,1 @@
-# MBD-Diploma-Beginner
+# model-based-development
