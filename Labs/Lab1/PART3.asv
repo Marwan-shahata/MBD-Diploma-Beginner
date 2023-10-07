@@ -1,0 +1,6 @@
+%%_____________________________
+%%Part 3:  Using repmat Function
+%%%-----------------------------------------------
+
+%Create a 2x2 matrix named originalMatrix with any values you like.%
+originalMatrix=randi();
