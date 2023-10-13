@@ -1,0 +1,31 @@
+%%_____________________________
+%%Part 1: Creating Numeric Arrays
+%%%-----------------------------------------------
+% Create a cell array with different data types
+CellArray = {12,':',18, 'FRIDAY', [1 2 3; 4 5 6; 7 8 9]};
+
+% Access and display specific elements within the cell array
+% Accessing individual elements
+element1 = myCellArray{1};  % Access the first element (a number)
+element2 = myCellArray{2};  % Access the second element (a string)
+element3 = myCellArray{3};  % Access the third element (a double)
+element4 = myCellArray{4};  % Access the fourth element (a logical)
+element5 = myCellArray{5};  % Access the fifth element (a matrix)
+element6 = myCellArray{6};  % Access the sixth element (a matrix)
+element7 = myCellArray{7};  % Access the seventh element (a struct)
+
+% Display the accessed elements
+disp(element1);
+disp(element2);
+disp(element3);
+disp(element4);
+disp(element5);
+disp(element6);
+disp(element7);
+
+% Accessing and displaying elements in a loop
+for i = 1:numel(myCellArray)
+    currentElement = myCellArray{i};
+    disp(['Element ' num2str(i) ' is:']);
+    disp(currentElement);
+end

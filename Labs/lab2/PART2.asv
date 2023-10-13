@@ -1,0 +1,14 @@
+%%_____________________________
+%%Part 2: Structures
+%%%-----------------------------------------------
+
+% a simple structure to store information about a person (name, age, city)..%
+Infoperson = struct('name', '', 'age', 0, 'city', '');
+
+Infoperson.name='Marwan Mohamed';
+Infoperson.age=22';
+Infoperson.city='Suez';
+% Access the information for the person
+disp(['Name: ' person(1).name]);
+disp(['Age: ' num2str(person(1).age)]);
+disp(['City: ' person(1).city]);

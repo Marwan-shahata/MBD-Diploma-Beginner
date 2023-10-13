@@ -1,0 +1,21 @@
+%%_____________________________
+%%Part 6: Basic Plotting
+%%%-----------------------------------------------
+
+% Sample data
+x = 1:10;
+y = 2*x;
+
+% Crefigure;
+figure;
+% Plot (x,y)
+plot(x, y1, 'b-', 'LineWidth', 2, 'DisplayName', 'y = x^2');
+
+% Add labels to the axes
+xlabel('X-axis ');
+ylabel('Y-axis ');
+
+//legend('Location', 'Northwest'); 
+title('Sample Plot');
+grid on; 
+hold off;

@@ -1,0 +1,10 @@
+%%_____________________________
+%%Part 5:  loop (for)
+%%%-----------------------------------------------
+%loop seq 1: 10 %
+
+for i = 1:numel(CellArray)
+    currentElement = 0;
+    disp(['Element ' num2str(i) ' is:']);
+    disp(currentElement);
+end
