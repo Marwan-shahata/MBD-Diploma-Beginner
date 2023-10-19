@@ -1,0 +1,29 @@
+%% Two comman to easly handle%%
+clear all;
+clc;
+%%%-----------------------------------------------------
+%%Task 1: :  MATLAB Numeric Types and Array Manipulation
+%%______________________________________________________
+
+%%%-----------------------------------------------
+%%Part 4:Matrix Concatenation
+%%________________________________________________
+
+%
+%%Concatenate the evenNumbers vector horizontally with the primeNumbers vector to create a new row vector combinedVector.
+%%Display the combinedVector.
+%
+rowvector =[2:2:10];
+primeNumbers=[2,3,5,7,11];
+combinedVector= cat(2,rowvector,primeNumbers);
+disp('combinedVector');
+disp(combinedVector);
+%
+%%Create a new matrix combinedMatrix by vertically concatenating identityMatrix and magicSquare.
+%%Display the combinedMatrix.
+%
+identityMatrix = eye(2);
+magicSquare = magic(2);
+combinedMatrix=cat(1,identityMatrix,magicSquare)
+disp('combinedMatrix');
+disp(combinedMatrix);
